@@ -1,0 +1,21 @@
+{
+  "name": "pq-signing-demo",
+  "version": "1.0.0",
+  "description": "Post-quantum digital signatures demo con ML-DSA, SLH-DSA y firma híbrida — companion repo del post en juanchi.dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "npx tsx src/run.ts",
+    "benchmark": "npx tsx src/demos/benchmark.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.8.1",
+    "@noble/hashes": "^1.7.1",
+    "@noble/post-quantum": "^0.2.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0"
+  }
+}
