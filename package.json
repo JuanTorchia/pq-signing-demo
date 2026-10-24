@@ -15,7 +15,7 @@
     "@noble/post-quantum": "^0.2.1"
   },
   "devDependencies": {
-    "tsx": "^4.19.2",
+    "tsx": "^4.23.15",
     "typescript": "^5.7.0"
   }
 }
